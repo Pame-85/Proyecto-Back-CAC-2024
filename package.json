@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-back-cac-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "server": "nodemon .index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pame-85/Proyecto-Back-CAC-2024.git"
+  },
+  "author": "Cac-2024",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pame-85/Proyecto-Back-CAC-2024/issues"
+  },
+  "homepage": "https://github.com/Pame-85/Proyecto-Back-CAC-2024#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
