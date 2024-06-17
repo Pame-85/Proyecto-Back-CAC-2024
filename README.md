@@ -2,12 +2,20 @@
 
 ### Proyecto final del curso Node.Js de CAC.💻
 ***
-### Este proyecto tiene como objetivo principal realizar y desplegar un proyecto Backend en Node.js [NODE.JS](https://nodejs.org/en).
+### Este proyecto tiene como objetivo principal realizar y desplegar un proyecto Backend en [NODE.js](https://nodejs.org/en).
 ***
 ### 🚀 En el diseño  se utilizaron las siguientes tecnologías y recursos:
-- Template Engine : PUG
-- Tailwind CSS
-
+- Template Engines : PUG
+~~~
+npm i pug
+~~~
+- [Tailwind CSS](https://tailwindcss.com/)
+~~~
+npm i -D tailwindcss autoprefixer postcss postcss-cli
+~~~
+~~~
+npx tailwindcss init -p
+~~~
 ## Dependencias
 ~~~
 npm init -y (Creación del package.json)
