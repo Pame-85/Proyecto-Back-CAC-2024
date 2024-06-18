@@ -4,7 +4,7 @@ import { formLogin, formRegister, formForgetPassword } from '../controllers/user
 const router=express.Router();
 
 // Routing
-router.get('/login',formLogin)
+router.get('/',formLogin)
 router.get('/register',formRegister)
 router.get('/forget-password',formForgetPassword)
 
