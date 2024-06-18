@@ -14,6 +14,8 @@ app.use(express.static('public'))
 // Routing
 app.use('/auth',userRoutes)
 
+// Index
+app.use('/',userRoutes)
 // app.get('/',(req,res)=>{
 //     res.json({msg:'Proyecto-BACK-CAC-2024'})
 
@@ -24,5 +26,5 @@ app.use('/auth',userRoutes)
 const port=3000
 
 app.listen(port,()=>{
-    console.log(`El servidor está funcionando en el puerto${port}`)
+    console.log(`El servidor está funcionando en el puerto:${port}`)
 })
