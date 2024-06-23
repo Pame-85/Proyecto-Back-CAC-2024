@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/Pame-85/Proyecto-Back-CAC-2024#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "mysql2": "^3.10.1",
     "pug": "^3.0.3"
   },
   "devDependencies": {
