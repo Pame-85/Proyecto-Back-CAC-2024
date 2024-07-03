@@ -26,7 +26,14 @@ npm install express
 ~~~
 npm install nodemon -D ( Dependencias de producción)
 ~~~
-
+### Base de datos
+~~~
+npm install mysql2
+~~~
+### Variables de entorno
+~~~
+npm install dotenv
+~~~
 ## Autenticación
 -  El usuario podrá realizar el Registro, luego el Login y por último podrá 
 restablecer contraseña
