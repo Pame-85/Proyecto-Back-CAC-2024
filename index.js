@@ -1,8 +1,12 @@
 import express from 'express'
 import userRoutes from './routes/userRoutes.js'
 
+
 // Crear la app- llamamos la función 
 const app=express()
+
+// Habilitar lectura de datos de formulario
+app.use ( express.urlencoded ({extended:true}) )
 
 // Habilitar Pug
 app.set('view engine','pug') 
@@ -20,7 +24,6 @@ app.use('/',userRoutes)
 //     res.json({msg:'Proyecto-BACK-CAC-2024'})
 
 // })
-
 
 // Definir un puerto y arrancar el proyecto
 const port=3000

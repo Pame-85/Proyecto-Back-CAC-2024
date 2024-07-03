@@ -9,10 +9,16 @@ block content
 
     .mt-8.mx-auto.max-w-md 
         .bg-white.py-8.px-4.shadow
-            form.space-y-5
+            form.space-y-5(method="POST" action="/auth/register")
                 div
-                    label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="nombre") Tu Nombre
-                    input#nombre.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Nombre" type="text" name="nombre")
+                    label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="name") Tu Nombre
+                    input#name.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Nombre" type="text" name="name")
+                div
+                    label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="surname") Tu Apellido
+                    input#surname.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Apellido" type="text" name="surname")
+                div
+                    label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="telephone") Teléfono
+                    input#telephone.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Teléfono" type="text" name="telephone")
                 div
                     label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="email") Email de Registro
                     input#email.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Email" type="email" name="email")
@@ -20,8 +26,8 @@ block content
                     label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="password") Contraseña
                     input#password.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Contraseña" type="password" name="password")
                 div
-                    label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="repetir_password") Repetir Contraseña
-                    input#repetir_password.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Repetir Contraseña" type="password" name="repetir_password")
+                    label.block.text-sm.uppercase.text-gray-500.mb-3.font-bold(for="repeat_password") Repetir Contraseña
+                    input#repetir_password.w-full.px-3.py-2.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Repetir Contraseña" type="password" name="repeat_password")
 
                 div.flex.items-center.justify-between
                     a.text-gray-500.text-xs(href="/") ¿Ya tienes Cuenta? Inicia Sesión
